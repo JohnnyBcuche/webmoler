@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.employeer{
+	height: auto;
+	width: auto;
+	margin-bottom: 20px;
+	align-items: center;
+	display: flex;	
+}
+.employeer img{
+	height: 200px;
+	width: 200px;
+	padding: 0 30px;
+	border-radius: 50%;
+	margin: 10px 0;
+}
+.employeer p{
+	position: relative;
+	font-family: proxima-nova,sans-serif;
+	font-style: normal;
+	font-size: 1.4em;
+	letter-spacing: 0.03em;
+	padding: 20px;
+	text-align: justify;
+}
+.e1, .e3, .e5{
+	background:url("../img/fasada.jpg") #e65c00;
+	background-size: 100% 100%;
+	border-radius: 20px;
+}
+
+/**/
+
+@media only screen and (max-width:950px){
+
+}
+
+@media only screen and (max-width:600px) {
+.employeer{
+	height: auto;
+	margin-bottom: 10px;
+	display: table;
+	padding: 15px 20px 15px 20px;
+}
+.employeer img{
+	height: 120px;
+	width: 120px;
+	display: block;
+    margin: 10px auto 10px auto;
+}
+.employeer p{
+	font-size: 14px;
+	display: table-footer-group;
+}
+}

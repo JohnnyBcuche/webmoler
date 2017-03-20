@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background:url("../img/fasada1.jpg");
+}
+a {
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
+text-decoration:none;
+}
+h1, h2, h3, h4, h5 {
+font-family: proxima-nova,sans-serif;
+font-style: normal;
+}
+
+/*Cover*/
+
+.sve{
+	background-color: rgba(255, 173, 51, .5);
+}
+.cover {
+	background-repeat: no-repeat;
+	height: 380px;
+	opacity: .8;
+	width: 100%;
+	background-size: 100% 100%;
+	transition: .6s ease-in-out;
+}
+.cover:hover{
+	opacity: 1;
+	background-color: rgba(255, 173, 51, .2);
+}
+
+/*Menu*/
+
+.menu{
+	position: relative;
+	left: 0px;
+
+}
+.toggle{
+	text-decoration: none;
+	font-size: 50px;
+	color: white;
+	margin: 7px;
+	position: relative;
+	z-index: 1;
+	/*-webkit-transition: width 1s ease-in-out; */
+
+}
+.menu-open .sidebar{
+	display: initial;
+}
+.sidebar{
+	display: none;
+	color: #fff;
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	padding: 10px;
+	line-height: 45px;
+	z-index: 0;
+}
+li a{
+	text-decoration: none;
+	font-size: 35px;
+	color: inherit;
+	font-family: fantasy;
+}
+.sidebar a:hover{
+	color: #e65c00;
+	font-size: 40px;
+	-webkit-transition: all 0.7s ease-in-out;
+}
+
+/*Glavna*/
+
+.glavna{
+	position: relative;
+	height: auto;
+	width: 75%;
+	left: 12.5%;
+	right: 12.5%;
+	top: 7px;
+}
+
+/*Footer*/
+
+footer{
+	position: relative;
+	height: 100px;
+	width: 75%;
+	left: 12.5%;
+	right: 12.5%;
+	background:url("../img/fasada.jpg") #e65c00;
+	background-size: 100% 100%;
+	color: #3d3d29;
+	padding: 2% 0;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.footer-content{
+	padding: 2% 6%;
+	margin: auto;
+	font-family: proxima-nova,sans-serif;
+	font-style: normal;
+	line-height: 1.4;
+	color: #3d3d29;
+	font-size: 16px;
+}
+.copyright{
+	float: left;
+}
+.facebook{
+	float: right;
+	display: inline;
+	margin-top: -10px;
+}
+.facebook:hover img{
+	width: 84px;
+
+}
+.facebook img{
+	width: 80px;
+	height: auto;
+	-webkit-transition: 0.4s ease-in-out;
+}
+.facebook a{
+	text-decoration: none;
+	color: #3d3d29;
+	padding: 3px;
+	font-size: 24px;
+	-webkit-transition: 0.4s ease-in-out;
+}
+.facebook a:hover{
+	color: #0f0f0a;
+	font-size: 27px;
+}
+
+/**/
+
+@media only screen and (max-width:950px){
+
+}
+
+@media only screen and (max-width:600px) {
+.cover{
+	height: 200px;
+}
+.cover:hover{
+	height: 200px;
+}
+.toggle{
+	font-size: 35px;
+}
+.menu-open .sidebar{
+	display: initial;
+}
+.sidebar{
+	display: none;
+	position: relative;
+	width: auto;
+	height: 50px;
+	line-height: 25px;
+	padding: 0px;
+	top: 5px;
+	margin-bottom: 7px;
+	left: 7px;
+
+}
+li a{
+	font-size: 25px;
+}
+.sidebar a:hover{
+	font-size: 25px;
+}
+.glavna{
+	position: relative;
+	height: auto;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+footer{
+	height: 80px;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+.footer-content{
+	font-style: normal;
+	line-height: 1;
+	font-size: 14px;
+}
+.copyright{
+	float: left;
+	text-align: center;
+}
+.facebook{
+	display: none;
