@@ -45,8 +45,46 @@
 .about-services p{
 	display: none;
 	margin: 20px 0;
-	font-size: 16px;
+	font-size: 18px;
 	color: #3d3d29;
 	text-align: justify;
 	line-height: 22px;
+}
+@media only screen and (max-width:950px){
+
+}
+
+@media only screen and (max-width:600px){
+.glavna h1{
+	font-size: 20px;
+	margin: 45px 0 -10px 0;
+}
+.about-services{
+	height: auto;
+	margin: 10px 0;
+	width: 85%;
+	padding: 1% 7.5%;
+}
+#about{
+	height: auto;
+	width: 85%;
+	margin: 30px 0;
+	padding: 0 7.5%;
+}
+#about p{
+	font-size: 14px;
+	line-height: 22px;
+}
+#about h3{
+	font-size: 20px;
+}
+.about-services p{
+	font-size: 14px;
+}
+.about-services h2{
+	font-size: 20px;
+}
+.about-services h2:hover{
+	font-size: 20px;
+}
 }
