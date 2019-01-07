@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slavko Pap</title>
+	<meta name="description" content="Molersko, gipsarski, fasaderski radovi 'Slavko'. Vama na usluzi."/>
+	<meta name="keywords" content="Slavko Pap, moler, gipsar, fasader"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="sve">
+	<img src="img/cover.png" class="cover" alt="">
+
+	<a href="#" class="toggle">☰</a>
+	<article class="menu">
+		<nav class="sidebar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="employee.html">Employee</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</article>
+
+	<div class="glavna">
+		<h1>Usluge</h1>
+
+	<div id="about">
+		<h3>O nama</h3>
+		<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quia unde fuga soluta eveniet enim quo tempora ad recusandae illum consequuntur numquam saepe, blanditiis ipsum qui ratione iusto nulla sunt, sit aliquam quaerat laboriosam eum culpa iure! Suscipit assumenda, natus laboriosam sunt nesciunt autem officiis veniam eius amet at soluta aut aliquam deserunt ratione nam beatae nihil eveniet obcaecati doloremque dolore accusamus quidem, atque quod. Est animi eum veritatis porro in nemo eveniet nihil veniam unde fugiat minima molestias molestiae a quasi tempora nesciunt maiores eos ut ab, error at vitae? Quisquam, dolore aliquam, dolor quidem recusandae similique impedit assumenda hic velit, laboriosam quas exercitationem dicta accusamus maiores dolorum beatae eos cum doloribus amet itaque mollitia facilis sed labore veniam?</p>
+	</div>
+
+	<div class="about-services">
+		<h2 class="naslov" data-panelid="panel1">Fasade</h2><br/>
+		<p id="panel1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum iste placeat adipisci saepe earum non ea provident animi cupiditate alias, rem in dolores labore minima distinctio sit. Repellendus iure ab culpa sint quod. Reprehenderit illum deserunt repudiandae deleniti adipisci? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam facilis impedit eaque rerum, natus iste tempora, laborum ipsum sunt? Deserunt corporis, doloremque optio reiciendis minima laborum magnam id non atque rem possimus. Ea aspernatur numquam, voluptatem repudiandae porro reiciendis dolorem sequi facilis, nulla quia sapiente perspiciatis harum animi quasi delectus!</p>
+	</div>
+
+	<div class="about-services">
+		<h2 class="naslov" data-panelid="panel2">Gipsarski radovi</h2><br/>
+		<p id="panel2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum iste placeat adipisci saepe earum non ea provident animi cupiditate alias, rem in dolores labore minima distinctio sit. Repellendus iure ab culpa sint quod. Reprehenderit illum deserunt repudiandae deleniti adipisci? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa adipisci provident dolorum, inventore earum ab ex mollitia hic ipsum expedita ducimus rem natus veritatis cumque dignissimos reprehenderit quaerat iste similique autem. Velit, reprehenderit corporis non beatae, eligendi veniam in nobis ea quidem fuga ducimus quasi. Temporibus, odit id dolores veritatis.</p>
+	</div>
+
+	<div class="about-services">
+		<h2 class="naslov" data-panelid="panel3">Krecenje</h2><br/>
+		<p id="panel3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum iste placeat adipisci saepe earum non ea provident animi cupiditate alias, rem in dolores labore minima distinctio sit. Repellendus iure ab culpa sint quod. Reprehenderit illum deserunt repudiandae deleniti adipisci? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dicta ratione natus inventore, fugit atque. Nemo sit quam necessitatibus possimus sint aspernatur vero. Esse quo non, qui facilis. Harum omnis commodi ullam modi possimus molestias, consequatur blanditiis amet maiores distinctio, aspernatur asperiores officiis voluptas reiciendis eius totam velit nostrum nobis.</p>
+	</div>
+
+	<div class="about-services">
+		<h2 class="naslov" data-panelid="panel4">Stavljanje laminata</h2><br/>
+		<p id="panel4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint dolorum iste placeat adipisci saepe earum non ea provident animi cupiditate alias, rem in dolores labore minima distinctio sit. Repellendus iure ab culpa sint quod. Reprehenderit illum deserunt repudiandae deleniti adipisci? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dicta ratione natus inventore, fugit atque. Nemo sit quam necessitatibus possimus sint aspernatur vero. Esse quo non, qui facilis. Harum omnis commodi ullam modi possimus molestias, consequatur blanditiis amet maiores distinctio, aspernatur asperiores officiis voluptas reiciendis eius totam velit nostrum nobis.</p>
+	</div>
+	</div>
+	
+	<footer>
+		<div class="footer-content">
+		<p class="copyright"><b>&copy; Copyrights 2015 Slavko Pap.</br>Molersko, gipsarski, fasaderski radovi "Slavko".</b></p>
+		<div class="facebook">
+			<a href="https://www.facebook.com/Molersko-Gipsarski-Fasaderski-Radovi-Slavko-1205913912771777/?fref=ts" target="_blank"><img src="img/facebook.png" align="middle">facebook</a>
+		</div>
+		</div>
+	</footer>
+
+	<script>
+    (function() {
+      var article = $('article');
+      $('.toggle').bind('click', function() {
+        article.toggleClass('menu-open');
+        return false;
+      });
+    })();
+  </script>
+
+  <script>
+
+	$(document).ready(function() {
+		$('.naslov').on('click', function() {
+			var panelId = $(this).attr('data-panelid');
+			$('#' + panelId).toggle();
+		});
+	});
+
+</script>
+	</div>
+</body>
+</html>

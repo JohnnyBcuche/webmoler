@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.glavna h1{
+	text-align: center;
+	color: #0f0f0a;
+}
+#about{
+	height: auto;
+	width: 100%;
+	margin: 30px 0;
+	padding: 15px;
+}
+#about p{
+	font-size: 18px;
+	text-align: justify;
+	line-height: 20px;
+}
+#about h3{
+	font-size: 23px;
+	font-weight: bold;
+	color: #0f0f0a;
+}
+.about-services{
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	width: 100%;
+	margin: 15px 0;
+	padding: 5px;
+	border-bottom: 1px solid #0f0f0a;
+}
+.about-services h2{
+	font-size: 22px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #0f0f0a;
+	transition: font-size 0.3s ease-in-out , background-color 0.3s ease-in-out;
+}
+.about-services h2:hover{
+	font-size: 25px;
+	color: #585755;
+}
+.about-services p{
+	display: none;
+	margin: 20px 0;
+	font-size: 16px;
+	color: #3d3d29;
+	text-align: justify;
+	line-height: 22px;
+}
