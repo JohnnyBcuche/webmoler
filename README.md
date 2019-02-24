@@ -1,3 +1,3 @@
-GutHub Pages:
+GitHub Pages:
 
 https://johnnybcuche.github.io/webmoler/
